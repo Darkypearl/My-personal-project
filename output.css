@@ -94,7 +94,14 @@ div{
     text-align: center;
     padding: 15px;
 }
+.about{
+    color: white;
+}
+.skills{
+    color; white;
+}
 h2{
+    color: white;
     margin-left: 40px;
 }
 form{
