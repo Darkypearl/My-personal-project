@@ -1,0 +1,118 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: rgb(102, 62, 10); 
+}
+.container{
+   
+    width: fit-content;
+    color: rgb(102, 62, 10);
+
+}
+.text{
+    font-size: 13rem;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+.summary{
+    position:absolute;
+    color: whitesmoke;
+    font-size: 20px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.navigation{
+    position:absolute;
+    font-size: 16px;
+    top: 100%;
+    left: 80%;
+    transform: translate(100%, -500%);
+}
+
+.navigation :hover{
+    color: wh;
+}
+img{
+    border-radius: 30px;
+    width: fit-content;
+    position: relative;
+}
+nav ul :hover{
+    color: white;
+    cursor: pointer;
+}
+nav ul{
+    border-bottom:1px solid white;
+}
+nav ul li{
+    text-decoration: none;
+    display: inline;
+    margin: 100px;
+} 
+nav ul li :hover{
+    text-decoration: none;
+    color: inherit;
+}
+nav ul li :focus{
+    text-decoration: none;
+    color: inherit;
+}
+nav ul li :active{
+    text-decoration: none;
+    color: inherit;
+}
+.items{
+    border-bottom:1px solid white;
+}
+.item_container{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.price{
+    margin: 80px;
+    color:rgb(17, 16, 16)
+}
+.price :hover{
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.footer :hover{
+    cursor: pointer;
+}
+
+div{
+    width: auto;
+    text-align: center;
+    padding: 15px;
+}
+h2{
+    margin-left: 40px;
+}
+form{
+    display: inline-block;
+     padding-inline: 50px;
+ }
+ .submit-btn{
+     background-color: rgb(100, 96, 96);
+     border: 2px;
+     cursor: pointer;
+ }
+ .social_media{
+     cursor: pointer;
+ }
+ .social_media :hover{
+     color:white
+ }
+
+@media screen and (max-width: 320px){
+
+
+}
+    
