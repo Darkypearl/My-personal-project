@@ -36,6 +36,7 @@ body{
 
 .navigation :hover{
     color: white;
+    cursor:pointer;
 }
 img{
     border-radius: 30px;
