@@ -48,6 +48,7 @@ nav ul :hover{
     cursor: pointer;
 }
 nav ul{
+    color: white;
     border-bottom:1px solid white;
 }
 nav ul li{
