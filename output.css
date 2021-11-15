@@ -48,10 +48,10 @@ nav ul :hover{
     cursor: pointer;
 }
 nav ul{
-    color: white;
     border-bottom:1px solid white;
 }
 nav ul li{
+    color:white;
     text-decoration: none;
     display: inline;
     margin: 100px;
