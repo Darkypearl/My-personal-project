@@ -44,7 +44,7 @@ img{
     position: relative;
 }
 nav ul :hover{
-    color: white;
+    color: whitesmoke;
     cursor: pointer;
 }
 nav ul{
@@ -78,7 +78,7 @@ nav ul li :active{
 }
 .price{
     margin: 80px;
-    color:rgb(17, 16, 16)
+    color:white;
 }
 .price :hover{
     color: whitesmoke;
